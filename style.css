@@ -1,0 +1,87 @@
+ /* --------------------------------------------- */
+ .heading {
+     color: dimgrey;
+ }
+
+ .headingw {
+     color: darkorange;
+ }
+
+ .session-program h5 {
+     background-color: darkorange;
+ }
+
+ .horizontalLine {
+     height: 2px !important;
+     border-width: 0;
+     color: gray;
+     background-color: gray
+ }
+
+ .img-fluid {
+     height: 100px;
+ }
+
+ #Poster {
+     min-width: 800px;
+     position: relative;
+     overflow: hidden;
+     background:
+         url("./assets/bg.png") center/cover no-repeat;
+
+ }
+
+
+ /* #Poster::after {
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     background: url('./assets/bgorange.png') bottom center/cover no-repeat;
+     z-index: 1;
+ } */
+
+ #Poster::before {
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 210%;
+     background: url('./assets/bgorange.png') bottom center/cover no-repeat;
+     z-index: 1;
+ }
+
+ .bckgrnd {
+
+     background-color: #fa7413;
+     border-radius: 10px;
+     font-weight: bold;
+ }
+
+
+
+ ol li {
+     list-style: decimal;
+     list-style-position: inside;
+ }
+
+
+ #dp {
+     height: 250px;
+     border-radius: 50%;
+     border: 12px solid #ff990f;
+ }
+
+ .dr-info {
+     z-index: 999;
+ }
+
+ .dr-info h6 {
+     /* background: #ff990f; */
+     padding: 5px;
+     margin: 10px 0;
+ }
+
+ /* -----  */
+ #Poster2nd {
+     background-image: url("./assets/bg.png");
+ }
